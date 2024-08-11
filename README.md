@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# WeatherWise
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+WeatherWise is a React Native mobile application that provides users with detailed weather forecasts. It allows users to search for cities globally, view the current weather conditions, and get daily weather predictions for the next seven days.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Search Functionality**: Users can search for cities to obtain weather details.
+- **Current Weather Conditions**: Displays temperature, wind speed, humidity, and sunrise times for the selected location.
+- **7-Day Forecast**: Offers a daily forecast for the upcoming week, including temperature and weather conditions.
+- **Visual Appeal**: Uses custom icons and images to enhance the visual representation of different weather conditions.
 
+## Installation
+
+To get started with WeatherWise, follow these steps:
+
+1. Clone the repository:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/MuhammadTalhaTahir1/WeatherWise.git
+## Usage
 
-2. Start the app
+After launching the app, you will see the main screen where you can:
+- Use the search bar at the top to find your city.
+- View real-time weather details and the weekly forecast.
 
-   ```bash
-    npx expo start
-   ```
+## Built With
 
-In the output, you'll find options to open the app in a
+- React Native - The framework used
+- OpenAI API - For fetching weather data
+- AsyncStorage - For local data storage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Contributing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Get a fresh project
+To contribute to WeatherWise, follow these steps:
 
-When you're ready, run:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-```bash
-npm run reset-project
-```
+## Contact
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Muhammad Talha Tahir 
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Project Link: [https://github.com/MuhammadTalhaTahir1/WeatherWise](https://github.com/MuhammadTalhaTahir1/WeatherWise)
